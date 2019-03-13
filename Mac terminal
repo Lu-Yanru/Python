@@ -1,0 +1,27 @@
+**path:**
+cd ~/Desktop/
+ls # lists all the files in this path
+cd .. # 返回上一级
+gwd # 当前位置/上次停留的位置
+
+**open file:**
+open -a "Application" filename
+
+**move:**
+mv filename path
+
+**create new folders:**
+cd path mkdir "foldername"
+
+**delete files/folders:**
+rm -i filename
+rm -iR foldername
+
+**copy files:**
+cp -v path-old/filename path-new # rename while copying/moving possible
+
+**download files from the internet:**
+curl -O [URL of file you want to download]
+
+**run python:**
+python filename
