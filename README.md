@@ -1,2 +1,2 @@
 # ReadMe
-In this repository, I note the codes I learned for python (python3 for now). I have realized that R and python work similarly, so I may skip some basic concepts and explanations. Also, I start to learn to use the terminal on my Mac, so I may also note some commands for terminal here.
+In this repository, I note the codes I learned for python (python3 for now). I have realized that R and python work similarly, so I may skip some basic concepts and explanations. Also, I start to learn to use the terminal on my Mac, so I may also note some commands for terminal here. Most of the codes are inspired by / directly from Dr. Charles Severance's MOOC course / book "Python for Everybody".
