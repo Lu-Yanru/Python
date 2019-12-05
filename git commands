@@ -12,6 +12,9 @@ git init
 
 git status\
 git log
+git log -1
+git log --oneline
+git log --oneline --graph
 
 ls # zeig alle Dateien
 ls -a # mit versteckte Dateien
@@ -28,3 +31,14 @@ cat file
 git add file
 git commit -m "comments on commit"
 git diff # see changes
+git diff --staged # changes in staging area
+git diff --color-words # andere Darstellung, guenstiger wenn nur Woerter geaendert werden
+git diff HEAD(~1) file # head - letzte commit
+git show HEAD(~2) file
+
+git checkout HEAD file # Version letzte Commit
+git checkout commitcode file # see commit code from log
+# if want to go back in time, again git commit -m (before that, git diff --staged to check differences
+git checkout master
+
+
