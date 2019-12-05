@@ -1,0 +1,30 @@
+# Set up
+git config --global user.name "xxx"
+git config --global user.email "xxx"
+git config --global core.user "nano"
+
+# leg einen neuen Ordner ein (mach am besten keine Unterordner
+pwd # wo bin ich
+cd ~/xxx
+mkdir folderName
+cd folderName
+git init
+
+git status\
+git log
+
+ls # zeig alle Dateien
+ls -a # mit versteckte Dateien
+
+rm -r xxx # remove
+
+# Datei schreiben
+nano fileName.fileType
+
+# zeig Inhalt von Dateien
+cat file
+
+# Datei versionieren
+git add file
+git commit -m "comments on commit"
+git diff # see changes
