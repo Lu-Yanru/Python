@@ -41,4 +41,9 @@ git checkout commitcode file # see commit code from log
 # if want to go back in time, again git commit -m (before that, git diff --staged to check differences
 git checkout master
 
+# remote control
+git remote add origin url
+git remote -v # welche Aktionen koennen ausgefuehrt werden
+git push # rueberziehen
+
 
