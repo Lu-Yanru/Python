@@ -16,6 +16,7 @@ cd path mkdir "foldername"
 **delete files/folders:**
 rm -i filename
 rm -iR foldername
+rm -r foldername  # remove whole folder with files
 
 **copy files:**
 cp -v path-old/filename path-new # rename while copying/moving possible
